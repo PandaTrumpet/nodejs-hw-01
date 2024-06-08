@@ -1,1 +1,62 @@
-{"name":"Sonja Beatty","phone":"558-329-7741 x563","email":"Chloe41@gmail.com","job":"Internal Configuration Planner"}
+[
+  {
+    "name": "Drew Bogan",
+    "phone": "1-807-884-4000 x7889",
+    "email": "Jewell83@yahoo.com",
+    "job": "Internal Markets Director"
+  },
+  {
+    "name": "Rose Bartoletti",
+    "phone": "(682) 287-4614 x800",
+    "email": "Doyle.Orn@hotmail.com",
+    "job": "International Implementation Specialist"
+  },
+  {
+    "name": "Clay Kohler",
+    "phone": "(774) 805-2691 x4620",
+    "email": "Travis_Stroman@hotmail.com",
+    "job": "International Accountability Designer"
+  },
+  {
+    "name": "Ms. Michele Hammes",
+    "phone": "1-800-722-0282 x184",
+    "email": "Pablo8@gmail.com",
+    "job": "Future Intranet Coordinator"
+  },
+  {
+    "name": "Georgia Smith",
+    "phone": "977-918-1858",
+    "email": "Carmen_Daniel24@hotmail.com",
+    "job": "Internal Web Executive"
+  },
+  {
+    "name": "Christy Johns",
+    "phone": "954-723-2570 x53710",
+    "email": "Ali_Kling@yahoo.com",
+    "job": "Senior Response Planner"
+  },
+  {
+    "name": "Nettie Kuhlman",
+    "phone": "(978) 464-9408 x689",
+    "email": "Aric.Little65@gmail.com",
+    "job": "Regional Data Consultant"
+  },
+  {
+    "name": "Dr. Frankie Buckridge",
+    "phone": "1-420-779-6660 x6130",
+    "email": "Webster.Wolff@gmail.com",
+    "job": "Senior Data Supervisor"
+  },
+  {
+    "name": "Flora Hagenes",
+    "phone": "1-246-611-7534",
+    "email": "Christelle.Krajcik@yahoo.com",
+    "job": "National Infrastructure Developer"
+  },
+  {
+    "name": "Rose Legros MD",
+    "phone": "1-616-222-9238 x58835",
+    "email": "Mikel_Gorczany@gmail.com",
+    "job": "Regional Solutions Technician"
+  }
+]
