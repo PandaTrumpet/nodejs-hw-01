@@ -9,17 +9,16 @@ const generateContacts = async (number) => {
       data.push(createFakeContact());
     }
 
-    const jsonFile = JSON.stringify(data, null, 2); // Форматирование JSON с отступами для удобочитаемости
+    const jsonFile = JSON.stringify(data, null, 2);
 
     try {
-      await fs.access(PATH_DB); // Проверка существования файла
-      const existingData = await fs.readFile(PATH_DB, 'utf-8'); // Чтение существующего файла
-      const parsedData = JSON.parse(existingData); // Парсинг существующего JSON
-      const updatedData = [...parsedData, ...data]; // Объединение старых и новых данных
-      const updatedJsonFile = JSON.stringify(updatedData, null, 2); // Обновленный JSON
-      await fs.writeFile(PATH_DB, updatedJsonFile, 'utf-8'); // Запись обновленных данных
+      await fs.access(PATH_DB);
+      const existingData = await fs.readFile(PATH_DB, 'utf-8');
+      const parsedData = JSON.parse(existingData);
+      const updatedData = [...parsedData, ...data];
+      const updatedJsonFile = JSON.stringify(updatedData, null, 2);
+      await fs.writeFile(PATH_DB, updatedJsonFile, 'utf-8');
     } catch {
-      // Файл не существует, создаем новый файл
       await fs.writeFile(PATH_DB, jsonFile, 'utf-8');
     }
 
