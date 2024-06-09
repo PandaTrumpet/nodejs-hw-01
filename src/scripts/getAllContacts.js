@@ -3,7 +3,6 @@ import fs from 'fs/promises';
 export const getAllContacts = async () => {
   try {
     const data = await fs.readFile(PATH_DB, 'utf-8');
-    console.log(data);
   } catch (error) {
     console.log(error);
   }

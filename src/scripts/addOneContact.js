@@ -9,7 +9,6 @@ export const addOneContact = async () => {
     const updatedData = [...parseFile, newContact];
     const updateJSON = JSON.stringify(updatedData, null, 2);
     await fs.writeFile(PATH_DB, updateJSON, 'utf-8');
-    console.log(updateJSON);
   } catch (error) {
     console.log(error);
   }
